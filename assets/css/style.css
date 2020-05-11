@@ -424,6 +424,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 @media (max-width: 575px) {
+  #hero h2{
+    font-size: 47px;
+  }
   #hero::after {
     left: 40%;
     top: 0;
