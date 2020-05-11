@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .back-to-top i {
-  font-size: 24px;
+  font-size: 44px;
   position: absolute;
   top: 8px;
   left: 8px;
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header .logo h1 {
-  font-size: 28px;
+  font-size: 32px;
   margin: 0;
   padding: 4px 0;
   line-height: 1;
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #ddecf5;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "SF Display";
 }
 
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .nav-menu .drop-down ul a {
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   text-transform: none;
   color: #1c3745;
@@ -348,7 +348,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #hero h2 {
   color: #fff;
   margin-bottom: 30px;
-  font-size: 90px;
+  font-size: 115px;
   font-weight: 700;
 }
 
@@ -366,7 +366,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
   background: none;
-  font-size: 48px;
+  font-size: 58px;
   line-height: 1;
   width: auto;
   height: auto;
@@ -375,7 +375,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #hero .btn-get-started {
   font-family: "SF Display";
   font-weight: 500;
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -406,7 +406,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 @media (max-width: 768px) {
   #hero h2 {
-    font-size: 47px;
+    font-size: 57px;
   }
   #hero::after {
     width: 180%;
@@ -459,7 +459,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 28px;
+  font-size: 38px;
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -502,7 +502,7 @@ section {
 }
 
 .breadcrumbs h2 {
-  font-size: 28px;
+  font-size: 38px;
   font-weight: 300;
 }
 
@@ -567,14 +567,14 @@ section {
 }
 
 .services .icon i {
-  font-size: 36px;
+  font-size: 46px;
   line-height: 1;
 }
 
 .services .title {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 23px;
 }
 
 .services .title a {
@@ -582,7 +582,7 @@ section {
 }
 
 .services .description {
-  font-size: 15px;
+  font-size: 19px;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -676,7 +676,7 @@ section {
   margin-left: 95px;
   font-weight: 700;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
 }
 
@@ -692,7 +692,7 @@ section {
 .why-us .icon-box .description {
   margin-left: 95px;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .why-us .video-box {
@@ -808,7 +808,7 @@ section {
 
 .features h3 {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 39px;
 }
 
 .features ul {
@@ -821,7 +821,7 @@ section {
 }
 
 .features ul i {
-  font-size: 20px;
+  font-size: 28px;
   padding-right: 4px;
   color: #68A4C4;
 }
