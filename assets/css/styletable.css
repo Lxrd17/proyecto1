@@ -171,10 +171,6 @@ img {
     width: auto;
     padding: 1em;
 }
-.anima:hover{
-    background-color: black;
-}
-
 .img-rotate-x
 {
 transition:all 1.2s ease-in-out;
@@ -192,8 +188,6 @@ transform:rotateX(180deg);
 -ms-transform:rotateX(180deg);
 -o-transform:rotateX(180deg);
 }
-
-/*** effect rotate-y ***/
 
 .img-rotate-y
 {
