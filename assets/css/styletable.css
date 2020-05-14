@@ -49,7 +49,8 @@ body {
 	font-size: 1.6rem;
     font-family: "SF Display";
     color: #2d3d4f;
-	background-color: #1bbc9d;
+  background-color: #1bbc9d;
+  animation: backa 4s linear infinite;
 }
 a {
 	text-decoration: none;
@@ -223,4 +224,30 @@ transform:rotateZ(180deg);
 -moz-transform:rotateZ(180deg);
 -ms-transform:rotateZ(180deg);
 -o-transform:rotateZ(180deg);
+}
+@keyframes backa{
+	0%{
+		background:#1bbc9d;
+	}
+	25%{
+		background:#1bbc9d;
+	}
+	26%{
+		background: #ff0800cc;
+	}
+	50%{
+		background: #ff0800cc;
+	}
+	51%{
+		background:#d9ff00;
+	}
+	75%{
+		background:#d9ff00;
+	}	
+	76%{
+		background:#7d1eca;
+	}
+	100%{
+		background:#7d1eca;
+  }
 }
