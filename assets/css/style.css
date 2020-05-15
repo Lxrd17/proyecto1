@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header.header-scrolled {
-  background: rgba(255, 8, 0, 0.8);
+  background: #ff0800cc;
   height: 60px;
   padding: 10px 0;
 }
@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #080808;
 }
 
 .mobile-nav-overly {
@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(255, 1, 158, 0.6);
+  background: #ffffff;
   overflow: hidden;
   display: none;
 }
@@ -471,6 +471,14 @@ th{
 .section-bg {
   background-color: #00f7ff;
   height: 650px;
+}
+.section-bg1 {
+  background-color: #00f7ff;
+  height: 450px;
+}
+.section-bg12 {
+  background-color: #00f7ff;
+  height: 500px;
 }
 
 .section-title {
