@@ -1,0 +1,65 @@
+.pad{
+    padding: 5px;
+}
+  @media only screen and (min-width: 1025px) {
+    a[href^=tel],
+    a[href^=skype],
+    a[href^=sms] {
+      cursor: default;
+      pointer-events: none; } }
+  ol,
+  ul {
+    list-style: none; }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+  .responsiveTbl table {
+    text-align: center;
+    width: 100%; }
+  tr {
+    background: #fff; }
+    tr:nth-child(2n) {
+      background: #d6d2d2; }
+    tr:hover .msg {
+      opacity: 1;
+      top: 0; }
+  th,
+  td {
+    padding: 15px 20px;
+    vertical-align: middle; }
+    th:nth-child(2),
+    td:nth-child(2) {
+      text-align: left; }
+  
+  th {
+    background: #9b59b6;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 25px 20px; }
+  @media only screen and (max-width: 767px) {
+    thead {
+      display: none; }
+  
+    tr {
+      margin: 0 0 15px;
+      display: block; }
+  
+    td {
+      display: block;
+      text-align: left;
+      padding: 10px 20px 10px 160px;
+      position: relative; }
+      td:before {
+        content: 'Magnitud';
+        font-weight: 500;
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        transform: translateY(-50%); }
+      td:nth-of-type(2):before {
+        content: 'MKS'; }
+      td:nth-of-type(3):before {
+        content: 'CGS'; }
+      td:nth-of-type(4):before {
+        content: 'INGLES';}}
